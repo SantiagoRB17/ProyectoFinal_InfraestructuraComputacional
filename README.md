@@ -1,6 +1,6 @@
 # 🖥️ Proyecto Final – Infraestructura Computacional
 
-**Autores: ** 
+**Autores:** 
 - Santiago Ramírez Bernal  
 - Santaigo Guevara Chavarria
 - Daniel Estiven Garcia
