@@ -4,6 +4,7 @@
 - Santiago Ramírez Bernal  
 - Santaigo Guevara Chavarria
 - Daniel Estiven Garcia
+
 **Profesor:** Maycol Cárdenas Acevedo  
 **Curso:** Infraestructura Computacional en Ingeniería de Sistemas  
 **Programa:** Ingeniería de Sistemas y Computación  
