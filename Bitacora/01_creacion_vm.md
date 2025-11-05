@@ -1,3 +1,5 @@
+# Bitácora 1 - Instalacion del sistema operativo
+
 ## 1. Objetivo
 
 El propósito de esta primera etapa es crear la máquina virtual base con **Ubuntu Server**, la cual servirá como entorno principal para el desarrollo del proyecto final.  
@@ -18,12 +20,12 @@ Se asignaron los siguientes recursos para garantizar estabilidad y rendimiento a
 Una vez completada la instalación, el sistema inició correctamente y mostró la consola de inicio de sesión
 
 **Evidencias:**  
-- *Figura 1.* Selección de la ISO y configuración inicial – `iso_y_nombre`  
-- *Figura 2.* Configuración del disco principal – `disco_principal`  
-- *Figura 3.* Asignación de recursos de hardware – `recursos_hardware`  
-- *Figura 4.* Creación de credenciales de usuario – `credenciales`  
-- *Figura 5.* Proceso de instalación en curso – `instalacion`  
-- *Figura 6.* Primer inicio de sesión exitoso – `primer_login`  
+- *Figura 1.* Selección de la ISO y configuración inicial – `iso_y_nombre.png`  
+- *Figura 2.* Configuración del disco principal – `disco_principal.png`  
+- *Figura 3.* Asignación de recursos de hardware – `recursos_hardware.png`  
+- *Figura 4.* Creación de credenciales de usuario – `credenciales.png`  
+- *Figura 5.* Proceso de instalación en curso – `instalacion.png`  
+- *Figura 6.* Primer inicio de sesión exitoso – `primer_login.png`  
 
 ---
 
@@ -36,7 +38,7 @@ Los comandos utilizados fueron:
 - sudo apt upgrade
 
 **Evidencia:**
-- *Figura 7.* Sistema actualizado correctamente – sistema_actualizado
+- *Figura 7.* Sistema actualizado correctamente – `sistema_actualizado.png`
 
 ---
 
@@ -57,8 +59,8 @@ Para verificar que todos los discos fueron detectados correctamente, se utilizó
 El resultado mostró los siete dispositivos (/dev/sda a /dev/sdg), confirmando que el sistema reconoce cada uno de los discos agregados.
 
 **Evidencias:**
-- *Figura 8.* Agregación de los seis discos adicionales en VirtualBox – `discos_agregados`
-- *Figura 9.* Listado de discos detectados con fdisk -l – `lista_discos`
+- *Figura 8.* Agregación de los seis discos adicionales en VirtualBox – `discos_agregados.png`
+- *Figura 9.* Listado de discos detectados con fdisk -l – `lista_discos.png`
 
 ## Conclusion
 En esta primera etapa se logró la instalación y configuración exitosa de la máquina virtual base con Ubuntu Server 24.04.3 LTS.
