@@ -14,18 +14,24 @@ Se asignaron los siguientes recursos para garantizar estabilidad y rendimiento a
 
 - **Sistema operativo:** Ubuntu Server 24.04.3 LTS (Noble Numbat)  
 - **Memoria RAM:** 2 GB  
-- **Procesadores:** 2 núcleos  
+- **Procesadores:** 4 núcleos  
 - **Almacenamiento principal:** 20 GB (VDI dinámico)  
 
 Una vez completada la instalación, el sistema inició correctamente y mostró la consola de inicio de sesión
 
 **Evidencias:**  
 - *Figura 1.* Selección de la ISO y configuración inicial – `iso_y_nombre.png`  
+  ![Figura 1 - Selección de la ISO y configuración inicial](../Evidencias/capturas_vm/iso_y_nombre.png)   
 - *Figura 2.* Configuración del disco principal – `disco_principal.png`  
+  ![Figura 2 - Configuración del disco principal](../Evidencias/capturas_vm/disco_principal.png)   
 - *Figura 3.* Asignación de recursos de hardware – `recursos_hardware.png`  
+  ![Figura 3 - Asignación de recursos de hardware](../Evidencias/capturas_vm/recursos_hardware.png)  
 - *Figura 4.* Creación de credenciales de usuario – `credenciales.png`  
+  ![Figura 4 - Creación de credenciales de usuario](../Evidencias/capturas_vm/credenciales.png)   
 - *Figura 5.* Proceso de instalación en curso – `instalacion.png`  
+  ![Figura 5 - Proceso de instalación en curso](../Evidencias/capturas_vm/instalacion.png)   
 - *Figura 6.* Primer inicio de sesión exitoso – `primer_login.png`  
+  ![Figura 6 - Primer inicio de sesión exitoso](../Evidencias/capturas_vm/primer_login.png)   
 
 ---
 
@@ -39,6 +45,7 @@ Los comandos utilizados fueron:
 
 **Evidencia:**
 - *Figura 7.* Sistema actualizado correctamente – `sistema_actualizado.png`
+  ![Figura 7 - Sistema actualizado correctamente](../Evidencias/capturas_vm/sistema_actualizado.png)  
 
 ---
 
@@ -60,7 +67,10 @@ El resultado mostró los siete dispositivos (/dev/sda a /dev/sdg), confirmando q
 
 **Evidencias:**
 - *Figura 8.* Agregación de los seis discos adicionales en VirtualBox – `discos_agregados.png`
+  ![Figura 8 - Agregación de los seis discos adicionales en VirtualBox](../Evidencias/capturas_vm/discos_agregados.png)  
 - *Figura 9.* Listado de discos detectados con fdisk -l – `lista_discos.png`
+  ![Figura 9 - Listado de discos detectados con fdisk -l](../Evidencias/capturas_vm/lista_discos.png)  
+
 
 ## Conclusion
 En esta primera etapa se logró la instalación y configuración exitosa de la máquina virtual base con Ubuntu Server 24.04.3 LTS.

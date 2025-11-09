@@ -21,7 +21,9 @@ Esta combinación de proporciona las herramientas necesarias para construir un a
 
 **Evidencia:**
 - *Figura 1.* Actualizacion del sistema – `actualizacion_sistema.png`  
+  ![Figura 1 - Actualizacion del sistema](../Evidencias/capturas_RAID/actualizacion_sistema.png)  
 - *Figura 2.* Instalación de herramientas RAID y LVM – `instalacion_herramientas.png`  
+  ![Figura 2 - Instalación de herramientas RAID y LVM](../Evidencias/capturas_RAID/instalacion_herramientas.png)  
 ---
 
 ## 3. Verificación de los discos disponibles
@@ -33,7 +35,8 @@ Antes de iniciar la configuración, se listaron los discos del sistema con:
 El servidor cuenta con siete discos: uno principal de 20 GB para el sistema operativo y seis discos de 2 GB destinados a los RAIDs.
 
 **Evidencia:**
-- *Figura 3.* Listado de discos detectados – `listado_discos.png` 
+- *Figura 3.* Listado de discos detectados – `listado_discos.png`
+  ![Figura 3 - Listado de discos detectados](../Evidencias/capturas_RAID/listado_discos.png)  
 ---
 
 ## 4. Creación de los tres arreglos RAID 1
@@ -86,9 +89,13 @@ Estos comandos muestran el progreso de la sincronización y los detalles interno
 
 **Evidencias:**
 - *Figura 4.* Creacion de los arreglos RAID1 – `creacion_raids.png` 
-- *Figura 5.* Verificación del estado de los RAIDs y verificacion del estado del raid md0 - `estado_raids_y_raid_md0.png` 
+  ![Figura 4 - Creacion de los arreglos RAID1](../Evidencias/capturas_RAID/creacion_raids.png)  
+- *Figura 5.* Verificación del estado de los RAIDs y verificacion del estado del raid md0 - `estado_raids_y_raid_md0.png`
+  ![Figura 5 - Verificación del estado de los RAIDs y verificacion del estado del raid md0](../Evidencias/capturas_RAID/estado_raids_y_raid_md0.png)   
 - *Figura 6* Verificacion del estado del RAID md1 - `estado_raid_md1.png` 
+  ![Figura 6 - Verificacion del estado del RAID md1](../Evidencias/capturas_RAID/estado_raid_md1.png)  
 - *Figura 7* Verificacion del estado del RAID md2 - `estado_raid_md2.png`
+  ![Figura 7 - Verificacion del estado del RAID md2](../Evidencias/capturas_RAID/estado_raid_md2.png)  
 
 ---
 
@@ -119,8 +126,9 @@ Este paso recompila el initramfs incluyendo la configuración recién añadida, 
 
 **Evidencias:**
 - *Figura 8.* Edición manual del archivo /etc/mdadm/mdadm.conf con los UUID de los RAIDs – `edicion_archivo_mdadm.conf.png` 
+  ![Figura 8 - Edición manual del archivo /etc/mdadm/mdadm.conf con los UUID de los RAIDs](../Evidencias/capturas_RAID/edicion_archivo_mdadm.conf.png) 
 - *Figura 9.* Actualización del initramfs luego de registrar los RAIDs – `actualizacion_imagen_sistema.png`
-
+  ![Figura 9 - Actualización del initramfs luego de registrar los RAIDs](../Evidencias/capturas_RAID/actualizacion_imagen_sistema.png) 
 ---
 
 ## Conclusion
