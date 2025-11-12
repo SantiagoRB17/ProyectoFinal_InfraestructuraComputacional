@@ -25,7 +25,7 @@ Cada ejecución devuelve el mensaje “Physical volume successfully created”, 
 
 **Evidencia:**
 - *Figura 1.* Creación de volúmenes físicos a partir de los arreglos RAID - `creacion_volumenes_fisicos.png`
-  ![Figura 1 - Creación de volúmenes físicos a partir de los arreglos RAID](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\creacion_volumenes_logicos.png)  
+  ![Figura 1 - Creación de volúmenes físicos a partir de los arreglos RAID](../Evidencias/capturas_LVM/creacion_volumenes_fisicos.png)  
 
 ---
 
@@ -43,11 +43,11 @@ Cada comando devuelve una confirmación con el mensaje “Volume group successfu
 
 **Evidencias:**
 - *Figura 2.* Creación del grupo de volumen para apache - `creacion_grupo_volumen_apache.png` 
-  ![Figura 2 - Creación del grupo de volumen para apache](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\creacion_grupo_volumen_apache.png) 
+  ![Figura 2 - Creación del grupo de volumen para apache](../Evidencias/capturas_LVM/creacion_grupo_volumen_apache.png) 
 - *Figura 3.* Creación del grupo de volumen para mysql - `creacion_grupo_volumen_mysql.png` 
-  ![Figura 3 - Creación del grupo de volumen para mysql](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\creacion_grupo_volumen_mysql.png) 
+  ![Figura 3 - Creación del grupo de volumen para mysql](../Evidencias/capturas_LVM/creacion_grupo_volumen_mysql.png) 
 - *Figura 4.* Creación del grupo de volumen para nginx - `creacion_grupo_volumen_nginx.png`
-  ![Figura 4 - Creación del grupo de volumen para nginx](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\creacion_grupo_volumen_nginx.png) 
+  ![Figura 4 - Creación del grupo de volumen para nginx](../Evidencias/capturas_LVM/creacion_grupo_volumen_nginx.png) 
 
 ---
 
@@ -66,7 +66,7 @@ Al finalizar, el sistema reportó “Logical volume created successfully” para
 
 **Evidencia:**
 - *Figura 5.* Creación de volúmenes lógicos - `creacion_volumenes_logicos.png`
-  ![Figura 5 - Creación de volúmenes lógicos](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\creacion_volumenes_logicos.png) 
+  ![Figura 5 - Creación de volúmenes lógicos](../Evidencias/capturas_LVM/creacion_volumenes_logicos.png) 
 ---
 
 ## 6. Formateo y montaje de los volúmenes
@@ -89,9 +89,9 @@ De esta forma, cada volumen lógico quedó montado en su punto de acceso corresp
 
 **Evidencias:**
 - *Figura 6.* Formateo de los volumenes lógicos con el sistema de archivos ext4 - `formateo_a_ext4.png`
-  ![Figura 6 - Formateo de los volumenes lógicos con el sistema de archivos ext4](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\formateo_a_ext4.png) 
+  ![Figura 6 - Formateo de los volumenes lógicos con el sistema de archivos ext4](../Evidencias/capturas_LVM/formateo_a_ext4.png) 
 - *Figura 7.* Montaje de los volúmenes lógicos en /mnt - `creacion_rutas_y_montaje_volumenes.png`
-  ![Figura 7 - Montaje de los volúmenes lógicos en /mnt](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\creacion_rutas_y_montaje_volumenes.png) 
+  ![Figura 7 - Montaje de los volúmenes lógicos en /mnt](../Evidencias/capturas_LVM/creacion_rutas_y_montaje_volumenes.png) 
 
 ---
 
@@ -111,7 +111,7 @@ Con esta configuración, el sistema montará los volúmenes de manera automátic
 
 **Evidencia:**
 - *Figura 8.* Configuración del archivo /etc/fstab - `configuracion_archivo_fstab.png`
-  ![Figura 7 - Configuración del archivo /etc/fstab](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\configuracion_archivo_fstab.png) 
+  ![Figura 7 - Configuración del archivo /etc/fstab](../Evidencias/capturas_LVM/configuracion_archivo_fstab.png) 
 
 ---
 
@@ -128,7 +128,7 @@ Las salidas confirmaron que los tres volúmenes estaban montados correctamente y
 
 **Evidencia:**
 - *Figura 9.* Verificación del estado de los volúmenes y puntos de montaje - `verificacion_volumenes_y_montajes.png`
-  ![Figura 9 - Verificación del estado de los volúmenes y puntos de montaje](ProyectoFinal_InfraestructuraComputacional\Evidencias\capturas_LVM\verificacion_volumenes_y_montajes.png) 
+  ![Figura 9 - Verificación del estado de los volúmenes y puntos de montaje](../Evidencias/capturas_LVM/verificacion_volumenes_y_montajes.png) 
 
 ## Conclusion
 La implementación del sistema LVM sobre los arreglos RAID 1 permitió consolidar una infraestructura de almacenamiento redundante, flexible y fácilmente escalable.
