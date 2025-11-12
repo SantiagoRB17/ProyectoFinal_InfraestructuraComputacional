@@ -46,6 +46,7 @@ El estado mostrado fue “active (running)”, confirmando que Docker estaba cor
 - *Figura 4.* Instalación exitosa de Docker. – `instalacion_exitosa.png`
   ![Figura 4 - Instalación exitosa de Docker](../Evidencias/capturas_servicio_apache_docker/instalacion_exitosa.png)
 - *Figura 5.* Verificacion de la versión de docker. – `version_docker.png`
+
   ![Figura 5 - Verificacion de la versión de docker](../Evidencias/capturas_servicio_apache_docker/version_docker.png)
 - *Figura 6.* Comprobacion servicio activo. – `estado_docker.png`
   ![Figura 6 - Comprobacion servicio activo](../Evidencias/capturas_servicio_apache_docker/estado_docker.png)
@@ -75,6 +76,7 @@ confirmando que /mnt/apache está correctamente montado y operativo sobre la inf
 
 **Evidencias:**
 - *Figura 7.* Comprobacion RAID. – `comprobacion_RAID.png`
+- 
   ![Figura 7 - Comprobacion RAID](../Evidencias/capturas_servicio_apache_docker/comprobacion_RAID.png)
 - *Figura 8.* Creacion de directorio y asignacion de permisos. – `directorio_y_permisos.png`
   ![Figura 8 - Creacion de directorio y asignacion de permisos](../Evidencias/capturas_servicio_apache_docker/directorio_y_permisos.png)
