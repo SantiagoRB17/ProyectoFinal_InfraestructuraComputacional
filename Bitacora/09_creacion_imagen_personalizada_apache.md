@@ -80,7 +80,13 @@ Docker procesó capa por capa hasta crear la imagen llamada apache_custom.
 
 El contenedor se ejecutó con:
 
-- sudo docker run -d --name apache_custom_container -p 8080:80 apache_custom
+- sudo docker run -d --name apache_bind_custom -p 8080:80 -v /mnt/apache/html:/usr/local/apache2/htdocs apache_custom
+
+Donde:
+- *docker run -d* **Ejecuta el contenedor en segundo plano.**
+- *--name apache_bind_custom* **Asigna un nombre al contenedor.**
+- *-p 8080:80* **Mapea el puerto 80 del contenedor al puerto 8080 de la máquina host.**
+- *-v /mnt/apache/html:/usr/local/apache2/htdocs* **Monta un volumen para persistencia de datos.**
 
 y se verificó su funcionamiento accediendo a:
 
