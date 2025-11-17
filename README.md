@@ -40,7 +40,7 @@ El proyecto se desarrolla sobre una máquina virtual Ubuntu Server 24.04.3 LTS e
 
 - **Virtualización:** creación de entornos aislados mediante VirtualBox.  
 - **Gestión de almacenamiento:** configuración de RAIDs y LVM.  
-- **Contenedorización:** despliegue de aplicaciones mediante Docker y Podman.  
+- **Contenedorización:** despliegue de aplicaciones mediante Docker.
 - **Administración de sistemas Linux:** configuración, actualización y mantenimiento.
 
 ---
@@ -61,6 +61,5 @@ Las evidencias se presentan organizadas en carpetas según la etapa del proyecto
 - Documentación oficial de Ubuntu Server: [https://ubuntu.com/server/docs](https://ubuntu.com/server/docs)  
 - Manual de VirtualBox (Oracle, 2025)  
 - Docker Documentation: [https://docs.docker.com](https://docs.docker.com)  
-- Podman Documentation: [https://podman.io](https://podman.io)  
 - Apuntes de clase – Infraestructura Computacional (Universidad del Quindío)
 
